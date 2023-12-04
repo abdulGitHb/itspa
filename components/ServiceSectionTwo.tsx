@@ -136,7 +136,7 @@ const ServiceSection = () => {
                   </select>
                 </div>
                 <div className="w-full sm:w-1/2 px-2 mb-4">
-                  <button className=" bg-green-900 w-full text-white" type="submit" style={{ height: '47px' }}>
+                  <button className=" bg-[#616847] w-full text-white" type="submit" style={{ height: '47px' }}>
                     Make Appointment
                   </button>
                 </div>

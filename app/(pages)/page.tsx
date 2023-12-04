@@ -10,6 +10,8 @@ import TestimonialsSection from '@/components/testimonials-section'
 import Head from 'next/head'
 import Image from 'next/image'
 
+// Hex Codes: #E9E1CC, #C2C0A2, #9A9F78, #616847
+
 export default function Home() {
   return (
     <>
