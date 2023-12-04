@@ -17,10 +17,10 @@ export default function Home() {
     <>
     <main>
       <HeroSection/>
+      <AboutSection/>
       {/* <ServicesSection/> */}
       <ServiceSection/>
       <OpenHoursSection/>
-      <AboutSection/>
       <TestimonialsSection/>
       {/* <ContactSection/> */}
       <Footer/>

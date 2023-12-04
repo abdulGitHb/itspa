@@ -1,9 +1,11 @@
 "use client"
 
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
+import {useScroll} from "framer-motion"
 import Carousel from "react-spring-3d-carousel";
 import { config } from "react-spring";
 import "./style.css";
+import Lenis from "@studio-freight/lenis";
 
 interface Slide {
   key: string;
@@ -13,6 +15,22 @@ interface Slide {
 const Example: React.FC = () => {
   const [goToSlide, setGoToSlide] = useState(0);
   const [offsetRadius, setOffsetRadius] = useState(2);
+  const container = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: container,
+    offset: ['start start', 'end end']
+  })
+
+  useEffect( () => {
+    const lenis = new Lenis()
+
+    function raf(time:number) {
+      lenis.raf(time)
+      requestAnimationFrame(raf)
+    }
+
+    requestAnimationFrame(raf)
+  })
 
   const slides = [
     {

@@ -51,10 +51,13 @@ const ServiceSection = () => {
     };
 
     return (
-        <div className="container mx-auto py-5 my-5 mt-[95vh] overflow-hidden">
-            <div className="text-center">
-                <h6 className="inline-block bg-light text-primary text-uppercase py-1 px-2">Our Service</h6>
-                <h1>Spa & Beauty Services</h1>
+        <div className="container mx-auto py-5 my-5 overflow-hidden relative">
+          <div className='absolute top-2 left-8 w-10 h-10 z-10 lg:w-36 lg:h-36 bg-cover bg-center bg-no-repeat animate-[wiggle_1s_ease-in-out_infinite]'
+            style={{backgroundImage: `url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701674886/itspa/kfph4hoezybywdpdvquk.png)`,}}
+            />
+            <div className=" z-20 text-center flex flex-col justify-center items-center">
+                <h6 className="w-fit text-uppercase bg-[#C2C0A2] text-white py-1 px-2">Our Services</h6>
+                <h1 className="mb-4 font-sans text-[#616847] text-4xl font-bold">Spa & Beauty Services</h1>
             </div>
             <Slider {...settings}>
                 <ServiceItem 

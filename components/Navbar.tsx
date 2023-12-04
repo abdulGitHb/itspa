@@ -41,7 +41,7 @@ const NavBar = () => {
       className={`header w-full h-[75px] z-30 ${settings.sticky_header && "sticky top-0"}`}
     >
       
-      <nav className="navbar h-full container flex justify-between items-center bg-white px-10">
+      <nav className="navbar h-full flex justify-between items-center bg-white px-10">
         {/* logo */}
         <div className="order-0">
           {/* <Logo /> */}
