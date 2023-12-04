@@ -43,9 +43,9 @@ const NavBar = () => {
       
       <nav className="navbar h-full flex justify-between items-center bg-white px-10">
         {/* logo */}
-        <div className="order-0">
+        <div className="order-0 text-4xl text-[#C2C0A2] font-bold">
           {/* <Logo /> */}
-          ItSPA
+          It<span className="text-[#616847]">SPA</span>
           {/* <Image
             priority
             src={logo}
@@ -91,7 +91,7 @@ const NavBar = () => {
               {menu.hasChildren ? (
                 <li className="nav-item nav-dropdown group relative">
                   <span
-                    className={`nav-link inline-flex text-[#97144D] items-center ${
+                    className={`nav-link inline-flex text-[#616847] items-center ${
                       menu.children?.map(({ url }) => url).includes(pathname) ||
                       menu.children
                         ?.map(({ url }) => `${url}/`)
@@ -111,7 +111,7 @@ const NavBar = () => {
                         <Link
                           href={child.url}
                           onClick={() => setIsNavOpen(false)}
-                          className={`nav-dropdown-link text-[#97144D] hover:text-black block ${
+                          className={`nav-dropdown-link text-[#616847] hover:text-black block ${
                             (pathname === `${child.url}/` ||
                               pathname === child.url) &&
                             "active"
@@ -128,7 +128,7 @@ const NavBar = () => {
                   <Link
                     href={menu.url}
                     onClick={() => setIsNavOpen(false)}
-                    className={`nav-link block text-[#97144D] hover:text-black ${
+                    className={`nav-link block text-[#616847] hover:text-black ${
                       (pathname === `${menu.url}/` || pathname === menu.url) &&
                       "active"
                     }`}

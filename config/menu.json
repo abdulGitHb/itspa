@@ -32,45 +32,6 @@
         ]
       },
       {
-        "name": "Industries",
-        "url": "",
-        "hasChildren": true,
-        "children": [
-          {
-            "name": "Electrical Equipment & Industrial Automation",
-            "url": "/industries/tw-industry-001"
-          },
-          {
-            "name": "Consumer Electronics & Appliances",
-            "url": "/industries/tw-industry-002"
-          },
-          {
-            "name": "Automobile & Auto Components",
-            "url": "/industries/tw-industry-003"
-          },
-          {
-            "name": "Power & Renewable Energy",
-            "url": "/industries/tw-industry-004"
-          },
-          {
-            "name": "Pharmaceutical and Life Sciences",
-            "url": "/industries/tw-industry-005"
-          },
-          {
-            "name": "Investment Banking/PE/VC",
-            "url": "/industries/tw-industry-006"
-          },
-          {
-            "name": "Building Material",
-            "url": "/industries/tw-industry-007"
-          },
-          {
-            "name": "EMPI",
-            "url": "/industries/tw-industry-008"
-          }
-        ]
-      },
-      {
         "name": "Contact Us",
         "url": "/contact"
       }

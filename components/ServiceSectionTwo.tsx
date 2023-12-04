@@ -5,15 +5,15 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Link from 'next/link';
 
-const ServiceItem = ({ title, description }:{title:string, description:string}) => {
+const ServiceItem = ({ title, description, image }:{title:string, description:string, image: string}) => {
     return (
         <div className=" group mt-[55px] border-2 border-gray-300">
-            <img className="w-full z-10 group-hover:-mt-[55px] transition-all ease-in-out" src="https://res.cloudinary.com/dmquwnaeb/image/upload/v1701585803/itspa/eggo1oork4cmtjvxwwvz.jpg" alt="" />
-            <div className="hidden bg-red-300">
-                <h4 className="text-white font-medium px-3 text-center">{title}</h4>
-                <p className="text-white px-3 mb-3">{description}</p>
+            <img className="w-full z-10 group-hover:-mt-[55px] transition-all ease-in-out opacity-60 group-hover:opacity-100" src={image} alt="" />
+            <div className="absolute bg-[#C2C0A2]/60 top-1/2 w-[300px] group-hover:-translate-y-[55px] transition-all ease-in-out ml-2">
+                <h4 className="text-[#616847] font-medium px-3 text-2xl text-center">{title}</h4>
+                <p className="text-[#616847] px-3 mb-3">{description}</p>
             </div>
-            <div className="z-0 text-transparent -mt-[55px] h-[55px] group-hover:mt-0 group-hover:text-white flex justify-center bg-red-400 items-center overflow-hidden transition-all ease-in-out">
+            <div className="z-0 text-transparent -mt-[55px] h-[55px] group-hover:mt-0 group-hover:text-white flex justify-center group-hover:bg-red-400 items-center overflow-hidden transition-all ease-in-out">
                 <Link href="/">
                     <button className="">
                         Book Now
@@ -62,28 +62,38 @@ const ServiceSection = () => {
             <Slider {...settings}>
                 <ServiceItem 
                     title="Body Massage" 
-                    description="Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo sit ipsum" 
+                    description="Elitr labore sit dolor erat est lorem diam sea ipsum nnnnnnnnnnnn diam dolor duo sit ipsum" 
+                    image="https://res.cloudinary.com/dmquwnaeb/image/upload/v1701686384/itspa/wwvjbee07530bfirra6q.jpg"
                 />
                 <ServiceItem 
-                    title="Body Massage" 
+                    title="Stone Tharapy" 
                     description="Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo sit ipsum" 
+                    image="https://res.cloudinary.com/dmquwnaeb/image/upload/v1701686384/itspa/q1up5w3s2yov4fibphpt.jpg"
                 />
                 <ServiceItem 
-                    title="Body Massage" 
+                    title="Facial Tharapy" 
                     description="Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo sit ipsum" 
+                    image="https://res.cloudinary.com/dmquwnaeb/image/upload/v1701686384/itspa/miboqizxu4x8wnfrihf5.jpg"
                 />
                 <ServiceItem 
-                    title="Body Massage" 
+                    title="Skin Care" 
                     description="Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo sit ipsum" 
+                    image="https://res.cloudinary.com/dmquwnaeb/image/upload/v1701686384/itspa/lumc3pgwnag0mqiw7nnj.jpg"
                 />
                 <ServiceItem 
-                    title="Body Massage" 
+                    title="Steam Bath" 
                     description="Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo sit ipsum" 
+                    image="https://res.cloudinary.com/dmquwnaeb/image/upload/v1701686384/itspa/yikymyvdpyoy05zbdggf.jpg"
+                />
+                <ServiceItem 
+                    title="Face Masking" 
+                    description="Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo sit ipsum" 
+                    image="https://res.cloudinary.com/dmquwnaeb/image/upload/v1701686384/itspa/k96t0w7yug2lxq0blrlv.jpg"
                 />
                 
             </Slider>
 
-            <div className="flex justify-center bg-appointment bg-cover bg-center"
+      <div className="flex justify-center bg-appointment bg-cover bg-center bg-gray-300/30 bg-blend-lighten"
             style={{backgroundImage: `url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701585804/itspa/hywfd1b47xnompz1k4cx.jpg)`,}}>
         <div className="lg:w-1/2 py-5">
           <div className="p-5 my-5" style={{ background: 'rgba(33, 30, 28, 0.7)' }}>
@@ -139,7 +149,7 @@ const ServiceSection = () => {
                   </select>
                 </div>
                 <div className="w-full sm:w-1/2 px-2 mb-4">
-                  <button className=" bg-[#616847] w-full text-white" type="submit" style={{ height: '47px' }}>
+                  <button className=" bg-[#9A9F78] hover:bg-[#616847] w-full text-white" type="submit" style={{ height: '47px' }}>
                     Make Appointment
                   </button>
                 </div>
@@ -148,7 +158,7 @@ const ServiceSection = () => {
           </div>
         </div>
       </div>
-        </div>
+    </div>
     );
 };
 
