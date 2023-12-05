@@ -23,8 +23,8 @@ export default function Home() {
       <ServiceSection/>
       <OpenHoursSection/>
       <OurTeam/>
-      <TestimonialsSection/>
       <ContactSection/>
+      <TestimonialsSection/>
       <Footer/>
     </main>
       

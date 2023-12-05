@@ -74,7 +74,8 @@ const TestimonialsSection = () => {
         autoplay:true,
     };
     return (
-        <div className="relative py-8 bg-[#E9E1CC]">
+        <div className="relative py-8 bg-[#E9E1CC]/70 "
+         style={{backgroundImage:'url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701755310/itspa/uxnvdwbg0chnzaegbd7l.png)'}}>
         <div className="container mx-auto w-full md:w-1/2 py-5 overflow-hidden relative">
             <div className=" z-20 text-center flex flex-col justify-center items-center">
                 <h6 className="w-fit text-2xl font-bold bg-[#C2C0A2] text-white py-1 px-2">Our Services</h6>

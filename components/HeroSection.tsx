@@ -35,27 +35,27 @@ const Example: React.FC = () => {
   const slides = [
     {
       key: 1,
-      name:"Hello",
+      name:"The Essence of Ultimate Luxury",
       desc:"this is the description-1",
-      content: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1701585804/itspa/jegz3uppi8wynrlvywgn.jpg"
+      content: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1701750200/itspa/bhv7w2q8wm8cl9cbehxx.jpg"
     },
     {
       key: 2,
-      name:"Hello",
+      name:"Exclusive to Invitation Only",
       desc:"Your body is as delicate as a flower, give it the right care and it will bloom.",
-      content: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1701585803/itspa/eggo1oork4cmtjvxwwvz.jpg"
+      content: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1701750199/itspa/ikknjdcybesy0elwsjhv.jpg"
     },
     {
       key: 3,
-      name:"Hello",
-      desc:"this is the description-3",
-      content: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1701585804/itspa/hywfd1b47xnompz1k4cx.jpg"
+      name:"Personalized Touch in Every Service",
+      desc:"Our skin is as delicate as a flower, give it the right care and it will bloom.",
+      content: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1701750198/itspa/fvxkpjubc5hghnxr2rec.jpg"
     },
     {
       key: 4,
-      name:"Hello",
+      name:"Products That Suit Your Skin",
       desc:"this is the description-4",
-      content: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1701585804/itspa/qmxxasi9izegxn22214g.jpg"
+      content: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1701750198/itspa/zfupjsv9dsorildo7102.jpg"
     }
   ];
 
@@ -74,11 +74,11 @@ const handlePrev = () => {
         <div id="HSslide">
             {slides.map((slide, index)=>(
                 <div key={index} className="HSitem" style={{backgroundImage: `url(${slide.content})`,}}>
-                    <div className="HScontent">
-                    <div className="HSname text-4xl">{slide.name}</div>
-                    <div className="HSdes text-3xl">{slide.desc}</div>
-                    <button>See more</button>
-                </div>
+                  <div className="HScontent left-[10px] w-[250px] lg:left-[100px] lg:w-[500px]">
+                    <div className="HSname text-4xl p-4 bg-opacity-40">{slide.name}</div>
+                    <div className="HSdes text-3xl text-black [text-shadow:2px_2px_3px_var(--tw-shadow-color)] shadow-[#E9E1CC]">{slide.desc}</div>
+                    <button className="hover:bg-[#616847]">See more</button>
+                  </div>
                 </div>
             ))}
         </div>

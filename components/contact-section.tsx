@@ -51,7 +51,7 @@ const ContactSection = () => {
                 </div>
 
                 <div className="mt-8 lg:w-1/2 lg:mx-6">
-                    <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-[#C2C0A2]/70 shadow-2xl rounded-xl lg:max-w-xl">
+                    <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-[#E9E1CC]/80 shadow-2xl rounded-xl lg:max-w-xl">
                         <h1 className="text-3xl text-[#616847] font-bold">Contact form</h1>
 
                         <p className="mt-2 text-[#616847]/90">
@@ -62,17 +62,17 @@ const ContactSection = () => {
                         <form className="mt-6">
                             <div className="flex-1">
                                 <label className="block mb-2 text-sm text-[#616847]">Full Name</label>
-                                <input type="text" placeholder="John Doe" className="block w-full px-5 py-3 mt-2 text-white bg-[#9A9F78] border border-[#616847] rounded-md" />
+                                <input type="text" placeholder="John Doe" className="block w-full px-5 py-3 mt-2 placeholder-white text-white bg-[#9A9F78] border border-[#616847] rounded-md" />
                             </div>
 
                             <div className="flex-1 mt-6">
-                                <label className="block mb-2 text-sm text-[#616847]dark:text-gray-200">Email address</label>
-                                <input type="email" placeholder="johndoe@example.com" className="block w-full px-5 py-3 mt-2 text-white bg-[#9A9F78] border border-[#616847] rounded-md" />
+                                <label className="block mb-2 text-sm text-[#616847]">Email address</label>
+                                <input type="email" placeholder="johndoe@example.com" className="block w-full px-5 py-3 mt-2 placeholder-white text-white bg-[#9A9F78] border border-[#616847] rounded-md" />
                             </div>
 
                             <div className="w-full mt-6">
                                 <label className="block mb-2 text-sm text-[#616847]">Message</label>
-                                <textarea className="block w-full h-32 px-5 py-3 mt-2 text-white bg-[#9A9F78] border border-[#616847] rounded-md md:h-48" placeholder="Message"></textarea>
+                                <textarea className="block w-full h-32 px-5 py-3 mt-2 placeholder-white text-white bg-[#9A9F78] border border-[#616847] rounded-md md:h-48" placeholder="Message"></textarea>
                             </div>
 
                             <button className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-[#616847] rounded-md hover:bg-[#9A9F78] hover:text-[#616847]">

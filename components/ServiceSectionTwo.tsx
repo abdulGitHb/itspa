@@ -9,11 +9,11 @@ const ServiceItem = ({ title, description, image }:{title:string, description:st
     return (
         <div className=" group mt-[55px] border-2 border-gray-300">
             <img className="w-full z-10 group-hover:-mt-[55px] transition-all ease-in-out opacity-60 group-hover:opacity-100" src={image} alt="" />
-            <div className="absolute bg-[#C2C0A2]/60 top-1/2 w-[300px] group-hover:-translate-y-[55px] transition-all ease-in-out ml-2">
-                <h4 className="text-[#616847] font-medium px-3 text-2xl text-center">{title}</h4>
-                <p className="text-[#616847] px-3 mb-3">{description}</p>
+            <div className="absolute bg-[#C2C0A2]/60 group-hover:bg-[#C2C0A2] top-1/2 w-[300px] group-hover:-translate-y-[55px] transition-all ease-in-out ml-2">
+                <h4 className="text-[#616847] font-bold px-3 text-2xl text-center">{title}</h4>
+                <p className="text-black px-3 mb-3">{description}</p>
             </div>
-            <div className="z-0 text-transparent -mt-[55px] h-[55px] group-hover:mt-0 group-hover:text-white flex justify-center group-hover:bg-red-400 items-center overflow-hidden transition-all ease-in-out">
+            <div className="z-0 text-transparent -mt-[55px] h-[55px] group-hover:mt-0 group-hover:text-white flex justify-center group-hover:bg-[#616847] items-center overflow-hidden transition-all ease-in-out">
                 <Link href="/">
                     <button className="">
                         Book Now
@@ -94,7 +94,7 @@ const ServiceSection = () => {
             </Slider>
 
       <div className="flex justify-center bg-appointment bg-cover bg-center bg-gray-300/30 bg-blend-lighten"
-            style={{backgroundImage: `url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701585804/itspa/hywfd1b47xnompz1k4cx.jpg)`,}}>
+            style={{backgroundImage: `url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701759086/itspa/zrnzhenzuze7wqmxhj47.jpg)`,}}>
         <div className="lg:w-1/2 py-5">
           <div className="p-5 my-5" style={{ background: 'rgba(33, 30, 28, 0.7)' }}>
             <h1 className="text-white text-center mb-4">Make Appointment</h1>
