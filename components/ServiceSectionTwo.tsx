@@ -7,8 +7,8 @@ import Link from 'next/link';
 
 const ServiceItem = ({ title, description, image }:{title:string, description:string, image: string}) => {
     return (
-        <div className=" group mt-[55px] border-2 border-gray-300">
-            <img className="w-full z-10 group-hover:-mt-[55px] transition-all ease-in-out opacity-60 group-hover:opacity-100" src={image} alt="" />
+        <div className=" group mt-[55px] border-2 border-white rounded-md">
+            <img className="w-full z-10 group-hover:-mt-[55px] rounded-md transition-all ease-in-out opacity-60 group-hover:opacity-100" src={image} alt="" />
             <div className="absolute bg-[#C2C0A2]/60 group-hover:bg-[#C2C0A2] top-1/2 w-[300px] group-hover:-translate-y-[55px] transition-all ease-in-out ml-2">
                 <h4 className="text-[#616847] font-bold px-3 text-2xl text-center">{title}</h4>
                 <p className="text-black px-3 mb-3">{description}</p>
@@ -52,9 +52,9 @@ const ServiceSection = () => {
 
     return (
         <div className="container mx-auto py-5 my-5 overflow-hidden relative">
-          <div className='absolute top-2 left-8 w-10 h-10 z-10 lg:w-36 lg:h-36 bg-cover bg-center bg-no-repeat animate-[wiggle_1s_ease-in-out_infinite]'
+          {/* <div className='absolute top-2 left-8 w-10 h-10 z-10 lg:w-36 lg:h-36 bg-cover bg-center bg-no-repeat animate-[wiggle_1s_ease-in-out_infinite]'
             style={{backgroundImage: `url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701674886/itspa/kfph4hoezybywdpdvquk.png)`,}}
-            />
+          /> */}
             <div className=" z-20 text-center flex flex-col justify-center items-center">
                 <h6 className="w-fit text-uppercase bg-[#C2C0A2] text-white py-1 px-2">Our Services</h6>
                 <h1 className="mb-4 font-sans text-[#616847] text-4xl font-bold">Spa & Beauty Services</h1>

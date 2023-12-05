@@ -1,12 +1,12 @@
 const OurTeam = () => {
     return (
     <div className="relative"> 
-        <div className='absolute w-3 top-0 right-0 md:w-1/2 bg-cover bg-center bg-no-repeat h-full'
+        {/* <div className='absolute w-3 top-0 right-0 md:w-1/2 bg-cover bg-center bg-no-repeat h-full'
             style={{backgroundImage: `url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701688970/itspa/chtwp6p6merd9jgvlcxq.png)`,}}
         />
         <div className='absolute w-10 h-10 bottom-0 left-0 md:w-48 md:h-48 bg-cover bg-center bg-no-repeat  animate-[bounce_5s_ease-in-out_infinite]'
             style={{backgroundImage: `url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701674886/itspa/kfph4hoezybywdpdvquk.png)`,}}
-        />
+        /> */}
       <div className=" px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <div>

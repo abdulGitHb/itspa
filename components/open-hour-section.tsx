@@ -7,12 +7,12 @@ import {motion} from "framer-motion";
 const OpenHoursSection = () => {
     return (
         <div className="relative overflow-hidden">
-            <div className='absolute w-3 top-0 left-0 md:w-60 bg-cover bg-center bg-no-repeat h-full animate-pulse'
+            {/* <div className='absolute w-3 top-0 left-0 md:w-60 bg-cover bg-center bg-no-repeat h-full animate-pulse'
             style={{backgroundImage: `url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701674371/itspa/yvu9fj7v9euijsjpo3ll.png)`,}}
             />
             <div className='absolute w-10 h-10 top-12 right-0 md:w-52 md:h-52 bg-cover bg-center bg-no-repeat  animate-[bounce_5s_ease-in-out_infinite]'
             style={{backgroundImage: `url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701674886/itspa/kfph4hoezybywdpdvquk.png)`,}}
-            />
+            /> */}
 
             <div className="">
                 <div className="flex flex-col lg:flex-row justify-center items-center py-8">

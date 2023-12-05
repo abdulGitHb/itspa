@@ -17,14 +17,14 @@
 }
 .HSitem{
     width:150px;
-    height:250px;
+    height:150px;
     background-position: 50% 50%;
     display: inline-block;
     transition: 0.5s;
     background-size: cover;
     position: absolute;
     z-index: 1;
-    top:60%;
+    top:80%;
     transform: translate(0,-50%);
     border-radius: 20px;
     box-shadow:  0 30px 50px #505050;

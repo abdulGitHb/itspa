@@ -6,6 +6,7 @@ import ServicesSection from '@/components/ServicesSection'
 import AboutSection from '@/components/about-section'
 import ContactSection from '@/components/contact-section'
 import OpenHoursSection from '@/components/open-hour-section'
+import OurCenters from '@/components/our-centers'
 import OurTeam from '@/components/our-team'
 import TestimonialsSection from '@/components/testimonials-section'
 import Head from 'next/head'
@@ -18,13 +19,14 @@ export default function Home() {
     <>
     <main>
       <HeroSection/>
-      <AboutSection/>
-      {/* <ServicesSection/> */}
+      {/* <AboutSection/> */}
+      <ServicesSection/>
       <ServiceSection/>
+      <OurCenters/>
       <OpenHoursSection/>
       <OurTeam/>
-      <ContactSection/>
       <TestimonialsSection/>
+      <ContactSection/>
       <Footer/>
     </main>
       
