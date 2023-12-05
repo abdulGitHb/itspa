@@ -58,7 +58,7 @@ const OurTeam = () => {
                 <p className="mb-1 text-lg font-bold text-gray-100">
                   Oliver Aguilerra
                 </p>
-                <p className="mb-4 text-xs text-gray-100">Product Manager</p>
+                <p className="mb-4 text-xs text-gray-100">Skin-Care Specialist</p>
                 <p className="mb-4 text-xs tracking-wide text-gray-400">
                   Vincent Van Gogh’s most popular painting, The Starry Night.
                 </p>
@@ -94,7 +94,7 @@ const OurTeam = () => {
                 <p className="mb-1 text-lg font-bold text-gray-100">
                   Marta Clermont
                 </p>
-                <p className="mb-4 text-xs text-gray-100">Design Team Lead</p>
+                <p className="mb-4 text-xs text-gray-100">Hair Stylist</p>
                 <p className="mb-4 text-xs tracking-wide text-gray-400">
                   Amet I love liquorice jujubes pudding croissant I love pudding.
                 </p>
@@ -130,7 +130,7 @@ const OurTeam = () => {
                 <p className="mb-1 text-lg font-bold text-gray-100">
                   Anthony Geek
                 </p>
-                <p className="mb-4 text-xs text-gray-100">CTO, Lorem Inc.</p>
+                <p className="mb-4 text-xs text-gray-100">Massage Specialist</p>
                 <p className="mb-4 text-xs tracking-wide text-gray-400">
                   Apple pie macaroon toffee jujubes pie tart cookie caramels.
                 </p>
@@ -166,7 +166,7 @@ const OurTeam = () => {
                 <p className="mb-1 text-lg font-bold text-gray-100">
                   Alice Melbourne
                 </p>
-                <p className="mb-4 text-xs text-gray-100">Human Resources</p>
+                <p className="mb-4 text-xs text-gray-100">Head Manager</p>
                 <p className="mb-4 text-xs tracking-wide text-gray-400">
                   Lorizzle ipsum bling bling sit amizzle, consectetuer adipiscing
                   elit.

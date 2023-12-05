@@ -6,7 +6,7 @@ import {motion} from "framer-motion";
 
 const OpenHoursSection = () => {
     return (
-        <div className="relative overflow-hidden">
+        <div className="relative overflow-hidden mt-8">
             {/* <div className='absolute w-3 top-0 left-0 md:w-60 bg-cover bg-center bg-no-repeat h-full animate-pulse'
             style={{backgroundImage: `url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701674371/itspa/yvu9fj7v9euijsjpo3ll.png)`,}}
             />
@@ -55,7 +55,7 @@ const OpenHoursSection = () => {
                                 <li className="py-1 flex gap-x-2 items-center"><Circle color='#616847' size={20}/>Saturday : 9:00 AM - 6:00 PM</li>
                                 <li className="py-1 flex gap-x-2 items-center"><Circle color='#616847' size={20}/>Sunday : Closed</li>
                             </ul>
-                            <button className="btn btn-primary mt-6 bg-red-300 px-8 py-2">Book Now</button>
+                            <button className="btn btn-primary mt-6 bg-[#616847] hover:bg-[#616847]/70 px-8 py-2">Book Now</button>
                         </div>
                     </motion.div>
                 </div>

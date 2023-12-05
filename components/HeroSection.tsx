@@ -34,27 +34,27 @@ const Example: React.FC = () => {
 
   const slides = [
     {
+      key: 3,
+      name:"Individually Crafted Wellness Odyssey",
+      desc:"Meticulously crafted for you, blending personalized care with transformative experiences for ultimate rejuvenation.",
+      content: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1701750198/itspa/fvxkpjubc5hghnxr2rec.jpg"
+    },
+    {
       key: 1,
-      name:"The Essence of Ultimate Luxury",
-      desc:"this is the description-1",
+      name:"A Symphony of Ultimate Opulence",
+      desc:"Step into a world where every moment is a canvas painted with opulence, creating an atmosphere of timeless luxury.",
       content: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1701750200/itspa/bhv7w2q8wm8cl9cbehxx.jpg"
     },
     {
       key: 2,
-      name:"Exclusive to Invitation Only",
-      desc:"Your body is as delicate as a flower, give it the right care and it will bloom.",
+      name:"An Invitation to Serene Luxury",
+      desc:"Explore an invitation to serenity, where luxury beckons in every detail, creating an oasis of exclusive indulgence.",
       content: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1701750199/itspa/ikknjdcybesy0elwsjhv.jpg"
     },
     {
-      key: 3,
-      name:"Personalized Touch in Every Service",
-      desc:"Our skin is as delicate as a flower, give it the right care and it will bloom.",
-      content: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1701750198/itspa/fvxkpjubc5hghnxr2rec.jpg"
-    },
-    {
       key: 4,
-      name:"Products That Suit Your Skin",
-      desc:"this is the description-4",
+      name:"Sculpted Beauty, Suited for You",
+      desc:"Uncover your beauty, sculpted with precision to celebrate your distinct elegance and natural grace.",
       content: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1701750198/itspa/zfupjsv9dsorildo7102.jpg"
     }
   ];
@@ -77,7 +77,7 @@ const handlePrev = () => {
                   <div className="HScontent left-[10px] w-[250px] lg:left-[100px] lg:w-[500px]">
                     <div className="HSname text-4xl p-4 bg-opacity-40">{slide.name}</div>
                     <div className="HSdes text-3xl text-black [text-shadow:2px_2px_3px_var(--tw-shadow-color)] shadow-[#E9E1CC]">{slide.desc}</div>
-                    <button className="hover:bg-[#616847]">See more</button>
+                    <button className="hover:bg-[#616847] bg-[#616847]/40">See more</button>
                   </div>
                 </div>
             ))}

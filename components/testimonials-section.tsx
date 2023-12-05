@@ -78,8 +78,8 @@ const TestimonialsSection = () => {
          style={{backgroundImage:'url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701755310/itspa/uxnvdwbg0chnzaegbd7l.png)'}}>
         <div className="container mx-auto w-full md:w-1/2 py-5 overflow-hidden relative">
             <div className=" z-20 text-center flex flex-col justify-center items-center">
-                <h6 className="w-fit text-2xl font-bold bg-[#C2C0A2] text-white py-1 px-2">Our Services</h6>
-                <h1 className="mb-4 font-sans text-[#616847] text-4xl font-bold">Spa & Beauty Services</h1>
+                <h6 className="w-fit text-2xl font-bold bg-[#C2C0A2] text-white py-1 px-2">Testimonies</h6>
+                <h1 className="mb-4 font-sans text-[#616847] text-4xl font-bold">See What Our Clients Are Saying</h1>
             </div>
             <Slider {...settings}>
                 <ServiceItem 

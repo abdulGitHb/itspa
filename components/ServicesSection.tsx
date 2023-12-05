@@ -40,17 +40,17 @@ const ServicesSection = () => {
     <>
       <h6 className="w-fit mt-[95vh] mb-8 mx-auto uppercase bg-[#C2C0A2] text-white text-5xl py-1 px-2">We Offer You</h6>
                         
-    <div className="grid grid-cols-3 grid-rows-3 gap-4 lg:px-12 h-[80vh]">
-      <div className="col-span-2 row-span-2 rounded-lg flex items-center bg-cover bg-center bg-no-repeat"
+    <div className="grid grid-cols-3 grid-rows-3 gap-2 md:gap-4 lg:px-12 h-[80vh]">
+      <div className="col-span-2 row-span-2 rounded-lg flex items-center bg-cover bg-center bg-no-repeat overflow-hidden"
         style={{backgroundImage:'url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701776181/itspa/imbmzhwlikyat0q9joo7.jpg)'}}> 
         <motion.p
           initial={{
             y:150,
-            rotate:0
+            rotate:180
           }}
           whileInView={{
             y:0,
-            rotate:0
+            rotate:180
           }}
           viewport={{once:true}}
           transition={{
@@ -65,16 +65,14 @@ const ServicesSection = () => {
         style={{backgroundImage:'url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701698957/itspa/nrmkrt7mtkcbsr9fydgg.jpg)'}}>EXCLUSIVITY</p> 
       </div>
 
-      <div className="col-span-1 bg-blue-300 rounded-lg flex items-end justify-start px-2 bg-cover bg-center bg-no-repeat"
+      <div className="col-span-1 bg-blue-300 rounded-lg flex items-end justify-start px-2 bg-cover bg-center bg-no-repeat overflow-hidden"
       style={{backgroundImage:'url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701776181/itspa/rqutbafkfpfxxamxq4d2.jpg)'}}>
       <motion.p 
         initial={{
-          x:150,
-          rotate:0
+          x:-150,
         }}
         whileInView={{
           x:0,
-          rotate:0
         }}
         viewport={{once:true}}
         transition={{
@@ -83,16 +81,14 @@ const ServicesSection = () => {
       className='text-[3vw] font-bold text-white [text-shadow:2px_2px_3px_var(--tw-shadow-color)] shadow-black'>PEACE</motion.p> 
       </div>
 
-      <div className="col-span-1 row-span-1 bg-red-300 rounded-lg flex items-end justify-start px-2 bg-cover bg-center bg-no-repeat"
+      <div className="col-span-1 row-span-1 bg-red-300 rounded-lg flex items-end justify-start px-2 bg-cover bg-center bg-no-repeat overflow-hidden"
       style={{backgroundImage:'url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701776180/itspa/gdewg8ee3ohy72qpnhhq.jpg)'}}>
       <motion.p 
         initial={{
-          x:150,
-          rotate:0
+          x:-150,
         }}
         whileInView={{
           x:0,
-          rotate:0
         }}
         viewport={{once:true}}
         transition={{
@@ -101,16 +97,14 @@ const ServicesSection = () => {
       className='text-[3vw] font-bold text-white [text-shadow:2px_2px_3px_var(--tw-shadow-color)] shadow-black'>ELEGANCE</motion.p> 
       </div>
 
-      <div className="col-span-1 row-span-1 bg-blue-300 rounded-lg flex items-end justify-start px-2 bg-cover bg-center bg-no-repeat"
+      <div className="col-span-1 row-span-1 bg-blue-300 rounded-lg flex items-end justify-start px-2 bg-cover bg-center bg-no-repeat overflow-hidden"
       style={{backgroundImage:'url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701776180/itspa/tohekhlczgz4zi31mr5c.jpg)'}}>
       <motion.p 
         initial={{
-          x:150,
-          rotate:0
+          x:-150,
         }}
         whileInView={{
           x:0,
-          rotate:0
         }}
         viewport={{once:true}}
         transition={{
