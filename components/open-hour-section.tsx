@@ -1,6 +1,6 @@
 "use client"
 
-import { Circle, PhoneCall } from 'lucide-react';
+import { Circle } from 'lucide-react';
 import React from 'react';
 import {motion} from "framer-motion";
 
@@ -45,18 +45,16 @@ const OpenHoursSection = () => {
                           transition={{
                             duration:1.5
                           }}
-                    className="lg:w-1/2 p-2 lg:p-5 bg-[#E9E1CC] w-fit h-fit my-auto lg:-ml-32 z-20">
-                        <div className="hours-text pl-4">
-                        <h6 className="w-full font-bold text-center md:text-left text-[#C2C0A2] text-[6vw] pt-1 px-2"
-                            style={{fontFamily:"Alex Brush"}}>Open Hours</h6>
-                        <h1 className='text-center md:text-left text-[#616847] -mt-5 lg:-mt-20 mb-2 font-serif text-[4vw]'>For Our Spa Zones</h1>
-            
-                            <p>Indulge in tranquility at our spa, where refined luxury meets your schedule. Immerse in exclusive treatments, leaving the day's stresses behind. Our doors invite you to experience opulent relaxation and rejuvenation at your convenience.</p>
+                    className="lg:w-1/2 pt-5 pb-lg-5 bg-[#E9E1CC] w-fit h-fit my-auto lg:-ml-32 z-20">
+                        <div className="hours-text bg-light p-4 p-lg-5 my-lg-5">
+                            <h6 className="w-fit text-uppercase bg-[#C2C0A2] text-white py-1 px-2">Open Hours</h6>
+                            <h1 className="mb-4 font-sans text-[#616847] text-4xl font-bold">Best Relax And Spa Zone</h1>
+                            <p>Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et erat sed diam duo</p>
                             <ul className="list-none mt-6">
-                                <li className="py-1 flex gap-x-2 items-center"><Circle color='#616847' size={20} />Mon - Thu : 9:00 AM - 7:00 PM</li>
-                                <li className="py-1 flex gap-x-2 items-center"><Circle color='#616847' size={20}/>Fri - Sun : 9:00 AM - 6:00 PM</li>
+                                <li className="py-1 flex gap-x-2 items-center"><Circle color='#616847' size={20} />Mon – Fri : 9:00 AM - 7:00 PM</li>
+                                <li className="py-1 flex gap-x-2 items-center"><Circle color='#616847' size={20}/>Saturday : 9:00 AM - 6:00 PM</li>
+                                <li className="py-1 flex gap-x-2 items-center"><Circle color='#616847' size={20}/>Sunday : Closed</li>
                             </ul>
-                            <p className="my-3 flex gap-x-2 items-center"><PhoneCall color='#616847' size={20}/>+91 88888 88888</p>
                             <button className="btn btn-primary mt-6 bg-[#616847] hover:bg-[#616847]/70 px-8 py-2">Book Now</button>
                         </div>
                     </motion.div>
