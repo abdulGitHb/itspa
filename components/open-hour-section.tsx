@@ -1,6 +1,6 @@
 "use client"
 
-import { Circle } from 'lucide-react';
+import { Circle, PhoneCall } from 'lucide-react';
 import React from 'react';
 import {motion} from "framer-motion";
 
@@ -49,12 +49,12 @@ const OpenHoursSection = () => {
                         <div className="hours-text bg-light p-4 p-lg-5 my-lg-5">
                             <h6 className="w-fit text-uppercase bg-[#C2C0A2] text-white py-1 px-2">Open Hours</h6>
                             <h1 className="mb-4 font-sans text-[#616847] text-4xl font-bold">Best Relax And Spa Zone</h1>
-                            <p>Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et erat sed diam duo</p>
+                            <p>Indulge in tranquility at our spa, where refined luxury meets your schedule. Immerse in exclusive treatments, leaving the day&apos;s stresses behind. Our doors invite you to experience opulent relaxation and rejuvenation at your convenience.</p>
                             <ul className="list-none mt-6">
-                                <li className="py-1 flex gap-x-2 items-center"><Circle color='#616847' size={20} />Mon – Fri : 9:00 AM - 7:00 PM</li>
-                                <li className="py-1 flex gap-x-2 items-center"><Circle color='#616847' size={20}/>Saturday : 9:00 AM - 6:00 PM</li>
-                                <li className="py-1 flex gap-x-2 items-center"><Circle color='#616847' size={20}/>Sunday : Closed</li>
+                                <li className="py-1 flex gap-x-2 items-center"><Circle color='#616847' size={20} />Mon - Thu : 9:00 AM - 7:00 PM</li>
+                                <li className="py-1 flex gap-x-2 items-center"><Circle color='#616847' size={20}/>Fri - Sun : 9:00 AM - 6:00 PM</li>
                             </ul>
+                            <p className="my-3 flex gap-x-2 items-center"><PhoneCall color='#616847' size={20}/>+91 88888 88888</p>
                             <button className="btn btn-primary mt-6 bg-[#616847] hover:bg-[#616847]/70 px-8 py-2">Book Now</button>
                         </div>
                     </motion.div>
