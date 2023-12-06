@@ -60,7 +60,7 @@ const OurTeam = () => {
                 </p>
                 <p className="mb-4 text-xs text-gray-100">Skin-Care Specialist</p>
                 <p className="mb-4 text-xs tracking-wide text-gray-400">
-                  Vincent Van Gogh’s most popular painting, The Starry Night.
+                  Vincent Van Goghs most popular painting, The Starry Night.
                 </p>
                 <div className="flex items-center justify-center space-x-3">
                   <a
