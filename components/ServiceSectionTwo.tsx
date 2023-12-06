@@ -84,7 +84,7 @@ const ServiceSection = () => {
                 />
                 <ServiceItem 
                     title="Steam Bath" 
-                    description="Immerse in rejuvenation with our steam bath— Revitalize your body, clear mind and soul." 
+                    description="Immerse in rejuvenation with our steam bath- Revitalize your body, clear mind and soul." 
                     image="https://res.cloudinary.com/dmquwnaeb/image/upload/v1701686384/itspa/yikymyvdpyoy05zbdggf.jpg"
                 />
                 <ServiceItem 
