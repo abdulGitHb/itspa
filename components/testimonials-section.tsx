@@ -79,8 +79,8 @@ const TestimonialsSection = () => {
         <div className="container mx-auto w-full md:w-1/2 py-5 overflow-hidden relative">
             <div className=" z-20 text-center flex flex-col justify-center items-center">
               <h6 className="w-fit font-bold mx-auto text-[#C2C0A2] text-[6vw] pt-1 px-2"
-              style={{fontFamily:"Alex Brush"}}>Let's Hear</h6>
-              <h1 className='text-center text-[#616847] -mt-5 lg:-mt-20 mb-8 font-serif text-[4vw]'>Our Customers' Hearts</h1>
+              style={{fontFamily:"Alex Brush"}}>Let Us Hear</h6>
+              <h1 className='text-center text-[#616847] -mt-5 lg:-mt-20 mb-8 font-serif text-[4vw]'>Our Customers Hearts</h1>
             </div>
             <Slider {...settings}>
                 <ServiceItem 
