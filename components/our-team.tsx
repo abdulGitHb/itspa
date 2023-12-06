@@ -1,6 +1,6 @@
 const OurTeam = () => {
     return (
-    <div className="relative"> 
+    <div className=""> 
         {/* <div className='absolute w-3 top-0 right-0 md:w-1/2 bg-cover bg-center bg-no-repeat h-full'
             style={{backgroundImage: `url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701688970/itspa/chtwp6p6merd9jgvlcxq.png)`,}}
         />
@@ -8,14 +8,14 @@ const OurTeam = () => {
             style={{backgroundImage: `url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701674886/itspa/kfph4hoezybywdpdvquk.png)`,}}
         /> */}
       <div className=" px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+        <div className="relative max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <div>
-            <p className="inline-block text-2xl bg-[#C2C0A2] px-3 py-px mb-4 font-semibold tracking-wider text-white">
-              Our Beauty Specialist
-            </p>
+          <h1 className="w-fit font-bold mx-auto text-[#E9E1CC]/60 text-[6vw] pt-1 px-2"
+            style={{fontFamily:"Alex Brush"}}>Meet Our</h1>
+            <h1 className='text-center text-[#616847] mb-4 -mt-5 lg:-mt-20 font-serif text-[4vw]'>Team of Specialists</h1>
           </div>
           <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-            <span className="relative inline-block">
+            <span className="absolute left-0 top-0 inline-block">
               <svg
                 viewBox="0 0 52 24"
                 fill="currentColor"
@@ -38,7 +38,7 @@ const OurTeam = () => {
                   height="24"
                 />
               </svg>
-              <span className="relative text-[#616847]">Welcome our talented team of professionals</span>
+              
             </span>{' '}
           </h2>
           {/* <p className="text-base text-gray-700 md:text-lg">

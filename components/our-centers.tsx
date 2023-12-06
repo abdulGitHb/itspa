@@ -1,8 +1,9 @@
 const OurCenters = () => {
     return ( 
         <>
-        <h6 className="w-fit uppercase text-3xl mx-auto bg-[#C2C0A2] text-white py-1 px-2">Our Centers</h6>
-        <h1 className="mb-4 font-sans text-center text-[#616847] text-4xl font-medium">Some of our Exquisite Spa Centers</h1>
+        <h6 className="w-fit font-bold mx-auto text-[#E9E1CC]/60 text-[6vw] pt-1 px-2"
+            style={{fontFamily:"Alex Brush"}}>Welcome To</h6>
+        <h1 className='text-center text-[#616847] mb-4 -mt-5 lg:-mt-20 font-serif text-[4vw]'>Our Exquisite Spa Centers</h1>
            
         <div className="grid grid-cols-1 md:grid-cols-4 grid-rows-4 md:grid-rows-2 lg:px-12 h-[80vh]">
       

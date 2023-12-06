@@ -5,7 +5,9 @@ const ContactSection = () => {
         <div className="container flex flex-col flex-1 px-6 py-12 mx-auto">
             <div className="flex-1 lg:flex lg:items-center lg:-mx-6">
                 <div className="text-white lg:w-1/2 lg:mx-6">
-                    <h1 className="text-2xl font-semibold capitalize lg:text-3xl">Ultimate Destination For Your Mind & Body</h1>
+                <h6 className="w-fit font-bold mx-auto text-[#E9E1CC]/60 text-[4vw] pt-1 px-2"
+                    style={{fontFamily:"Alex Brush"}}>An Ultimate Destination</h6>
+                <h1 className='text-center text-[#616847] -mt-3 lg:-mt-14 mb-8 font-serif text-[4vw]'>For Your Mind & Body</h1>
 
                     <p className="max-w-xl mt-6">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem quo

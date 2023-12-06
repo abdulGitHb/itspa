@@ -17,6 +17,10 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <>
+    
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+    </style>
     <main>
       <HeroSection/>
       {/* <AboutSection/> */}

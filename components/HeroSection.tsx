@@ -54,7 +54,7 @@ const Example: React.FC = () => {
     {
       key: 4,
       name:"Sculpted Beauty, Suited for You",
-      desc:"Uncover your beauty, sculpted with precision to celebrate your distinct elegance and natural grace.",
+      desc:"Uncover your beauty, sculpted with precision to celebrate your distinct elegance and the natural grace.",
       content: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1701750198/itspa/zfupjsv9dsorildo7102.jpg"
     }
   ];
@@ -74,11 +74,12 @@ const handlePrev = () => {
         <div id="HSslide">
             {slides.map((slide, index)=>(
                 <div key={index} className="HSitem" style={{backgroundImage: `url(${slide.content})`,}}>
-                  <div className="HScontent left-[10px] w-[250px] lg:left-[100px] lg:w-[500px]">
-                    <div className="HSname text-4xl p-4 bg-opacity-40">{slide.name}</div>
-                    <div className="HSdes text-3xl text-black [text-shadow:2px_2px_3px_var(--tw-shadow-color)] shadow-[#E9E1CC]">{slide.desc}</div>
-                    <button className="hover:bg-[#616847] bg-[#616847]/40">See more</button>
-                  </div>
+                  <div className="HScontent left-[10px] w-[330px] lg:left-[100px] lg:w-[500px]">
+                    <div className="HSname text-4xl lg:text-6xl bg-[#E9E1CC]/80 p-4 text-center"
+                    style={{fontFamily:"Alex Brush"}}>{slide.name}</div>
+                    <div className="HSdes text-sm lg:text-2xl -mt-7 text-center bg-[#E9E1CC] bg-opacity-60 text-black [text-shadow:2px_2px_3px_var(--tw-shadow-color)] shadow-[#E9E1CC]">{slide.desc}</div>
+                    <button className="hover:bg-[#616847] mt-6 bg-[#616847]/40">See more</button>
+                    </div>
                 </div>
             ))}
         </div>

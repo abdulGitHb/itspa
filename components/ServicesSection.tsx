@@ -38,7 +38,11 @@ const ServicesSection = () => {
       
     // </div>
     <>
-      <h6 className="w-fit mt-[95vh] mb-8 mx-auto uppercase bg-[#C2C0A2] text-white text-5xl py-1 px-2">We Offer You</h6>
+    <div className='mt-[95vh]'>
+      <h6 className="w-fit font-bold mx-auto text-[#E9E1CC]/60 text-[6vw] pt-1 px-2"
+      style={{fontFamily:"Alex Brush"}}>We Offer You</h6>
+      <h1 className='text-center text-[#616847] -mt-5 lg:-mt-20 mb-8 font-serif text-[4vw]'>An Experience of Ultimate</h1>
+    </div>
                         
     <div className="grid grid-cols-3 grid-rows-3 gap-2 md:gap-4 lg:px-12 h-[80vh]">
       <div className="col-span-2 row-span-2 rounded-lg flex items-center bg-cover bg-center bg-no-repeat overflow-hidden"
@@ -65,14 +69,14 @@ const ServicesSection = () => {
         style={{backgroundImage:'url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701698957/itspa/nrmkrt7mtkcbsr9fydgg.jpg)'}}>EXCLUSIVITY</p> 
       </div>
 
-      <div className="col-span-1 bg-blue-300 rounded-lg flex items-end justify-start px-2 bg-cover bg-center bg-no-repeat overflow-hidden"
+      <div className="col-span-1 rounded-lg flex items-end justify-start px-2 bg-cover bg-center bg-no-repeat overflow-hidden"
       style={{backgroundImage:'url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701776181/itspa/rqutbafkfpfxxamxq4d2.jpg)'}}>
       <motion.p 
         initial={{
-          x:-150,
+          y:-100,
         }}
         whileInView={{
-          x:0,
+          y:0,
         }}
         viewport={{once:true}}
         transition={{
@@ -81,14 +85,14 @@ const ServicesSection = () => {
       className='text-[3vw] font-bold text-white [text-shadow:2px_2px_3px_var(--tw-shadow-color)] shadow-black'>PEACE</motion.p> 
       </div>
 
-      <div className="col-span-1 row-span-1 bg-red-300 rounded-lg flex items-end justify-start px-2 bg-cover bg-center bg-no-repeat overflow-hidden"
+      <div className="col-span-1 row-span-1 rounded-lg flex items-end justify-start px-2 bg-cover bg-center bg-no-repeat overflow-hidden"
       style={{backgroundImage:'url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701776180/itspa/gdewg8ee3ohy72qpnhhq.jpg)'}}>
       <motion.p 
         initial={{
-          x:-150,
+          y:-100,
         }}
         whileInView={{
-          x:0,
+          y:0,
         }}
         viewport={{once:true}}
         transition={{
@@ -97,14 +101,14 @@ const ServicesSection = () => {
       className='text-[3vw] font-bold text-white [text-shadow:2px_2px_3px_var(--tw-shadow-color)] shadow-black'>ELEGANCE</motion.p> 
       </div>
 
-      <div className="col-span-1 row-span-1 bg-blue-300 rounded-lg flex items-end justify-start px-2 bg-cover bg-center bg-no-repeat overflow-hidden"
+      <div className="col-span-1 row-span-1 rounded-lg flex items-end justify-start px-2 bg-cover bg-center bg-no-repeat overflow-hidden"
       style={{backgroundImage:'url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701776180/itspa/tohekhlczgz4zi31mr5c.jpg)'}}>
       <motion.p 
         initial={{
-          x:-150,
+          y:-100,
         }}
         whileInView={{
-          x:0,
+          y:0      
         }}
         viewport={{once:true}}
         transition={{
@@ -120,6 +124,94 @@ const ServicesSection = () => {
 
     </div>
 
+{/* 
+_________________________________________________________________________________________
+_________________________________________________________________________________________
+_________________________________________________________________________________________ 
+*/}
+
+    {/* <div className="grid grid-cols-5 grid-rows-4 gap-2 md:gap-4 lg:px-12 h-[80vh]">
+      <div className="col-span-2 bg-red-300 row-span-3 rounded-lg flex items-center bg-cover bg-center bg-no-repeat overflow-hidden"
+      style={{backgroundImage:'url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701776181/itspa/imbmzhwlikyat0q9joo7.jpg)'}}> 
+      <motion.p
+          initial={{
+            y:150,
+            rotate:180
+          }}
+          whileInView={{
+            y:0,
+            rotate:180
+          }}
+          viewport={{once:true}}
+          transition={{
+            duration:1.5
+          }}
+        className='rotate-180 text-[10vh] font-bold text-white [text-shadow:2px_2px_3px_var(--tw-shadow-color)] shadow-black' 
+        style={{writingMode:"vertical-lr",}}>LUXURY</motion.p> 
+      </div>
+      
+      <div className="col-span-2 row-span-2 rounded-lg flex items-end justify-start px-2 bg-cover bg-center"
+      style={{backgroundImage:'url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701776180/itspa/tohekhlczgz4zi31mr5c.jpg)'}}
+      >
+      <motion.p 
+        initial={{
+          x:-150,
+        }}
+        whileInView={{
+          x:0,
+        }}
+        viewport={{once:true}}
+        transition={{
+          duration:1.5
+        }}
+      className='text-[3vw] font-bold text-white [text-shadow:2px_2px_3px_var(--tw-shadow-color)] shadow-black'>WELLNESS</motion.p> 
+      </div>
+
+      <div className="col-span-1 row-span-1 rounded-lg flex items-center justify-center px-2 bg-cover bg-center bg-no-repeat overflow-hidden">
+      <p className='text-[3vw] font-extrabold bg-clip-text text-transparent bg-cover bg-center bg-no-repeat'
+        style={{backgroundImage:'url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701759086/itspa/zrnzhenzuze7wqmxhj47.jpg)'}}>PRESTIGE</p> 
+      </div>
+
+      <div className="col-span-1 row-span-1 rounded-lg flex items-end justify-start px-2 bg-cover bg-center bg-no-repeat overflow-hidden"
+      style={{backgroundImage:'url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701776181/itspa/rqutbafkfpfxxamxq4d2.jpg)'}}
+      >
+      <motion.p 
+        initial={{
+          x:-150,
+        }}
+        whileInView={{
+          x:0,
+        }}
+        viewport={{once:true}}
+        transition={{
+          duration:1.5
+        }}
+      className='text-[3vw] font-bold text-white [text-shadow:2px_2px_3px_var(--tw-shadow-color)] shadow-black'>PEACE</motion.p>
+      </div>
+
+      <div className="col-span-3 row-span-2 bg-blue-300 rounded-lg flex items-end justify-start px-2 bg-cover bg-center bg-no-repeat overflow-hidden"
+      style={{backgroundImage:'url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701776180/itspa/gdewg8ee3ohy72qpnhhq.jpg)'}}
+      >
+      <motion.p 
+        initial={{
+          x:-150,
+        }}
+        whileInView={{
+          x:0,
+        }}
+        viewport={{once:true}}
+        transition={{
+          duration:1.5
+        }}
+      className='text-[3vw] font-bold text-white [text-shadow:2px_2px_3px_var(--tw-shadow-color)] shadow-black'>ELEGANCE</motion.p> 
+      </div>
+
+      <div className="col-span-2 row-span-1 rounded-lg flex items-center justify-center px-2 ">
+      <p className='text-[4vw] font-extrabold bg-clip-text text-transparent bg-cover bg-center bg-no-repeat'
+        style={{backgroundImage:'url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701698957/itspa/nrmkrt7mtkcbsr9fydgg.jpg)'}}>EXCLUSIVITY</p> 
+      </div>
+
+    </div> */}
 
 
     </>
