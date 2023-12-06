@@ -64,32 +64,32 @@ const ServiceSection = () => {
             <Slider {...settings}>
                 <ServiceItem 
                     title="Body Massage" 
-                    description="Elitr labore sit dolor erat est lorem diam sea ipsum nnnnnnnnnnnn diam dolor duo sit ipsum" 
+                    description="Our expert body massage, a holistic experience to rejuvenate your body and soul." 
                     image="https://res.cloudinary.com/dmquwnaeb/image/upload/v1701686384/itspa/wwvjbee07530bfirra6q.jpg"
                 />
                 <ServiceItem 
                     title="Stone Tharapy" 
-                    description="Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo sit ipsum" 
+                    description="Experience relaxation through soothing warmth and therapeutic stones, restoring balance and serenity." 
                     image="https://res.cloudinary.com/dmquwnaeb/image/upload/v1701686384/itspa/q1up5w3s2yov4fibphpt.jpg"
                 />
                 <ServiceItem 
                     title="Facial Tharapy" 
-                    description="Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo sit ipsum" 
+                    description="Reveal your glow with personalized skincare that indulges your senses and enhances your beauty." 
                     image="https://res.cloudinary.com/dmquwnaeb/image/upload/v1701686384/itspa/miboqizxu4x8wnfrihf5.jpg"
                 />
                 <ServiceItem 
                     title="Skin Care" 
-                    description="Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo sit ipsum" 
+                    description="Discover skincare luxury, with personalized treatments and opulent formulations for radiant beauty." 
                     image="https://res.cloudinary.com/dmquwnaeb/image/upload/v1701686384/itspa/lumc3pgwnag0mqiw7nnj.jpg"
                 />
                 <ServiceItem 
                     title="Steam Bath" 
-                    description="Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo sit ipsum" 
+                    description="Immerse in rejuvenation with our steam bath— Revitalize your body, clear mind and soul." 
                     image="https://res.cloudinary.com/dmquwnaeb/image/upload/v1701686384/itspa/yikymyvdpyoy05zbdggf.jpg"
                 />
                 <ServiceItem 
                     title="Face Masking" 
-                    description="Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo sit ipsum" 
+                    description="Our face masking service is a bespoke experience to renew and unveil your radiant complexion." 
                     image="https://res.cloudinary.com/dmquwnaeb/image/upload/v1701686384/itspa/k96t0w7yug2lxq0blrlv.jpg"
                 />
                 
