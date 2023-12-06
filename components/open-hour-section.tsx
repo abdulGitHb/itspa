@@ -54,7 +54,7 @@ const OpenHoursSection = () => {
                             <p>Indulge in tranquility at our spa, where refined luxury meets your schedule. Immerse in exclusive treatments, leaving the day's stresses behind. Our doors invite you to experience opulent relaxation and rejuvenation at your convenience.</p>
                             <ul className="list-none mt-6">
                                 <li className="py-1 flex gap-x-2 items-center"><Circle color='#616847' size={20} />Mon – Thu : 9:00 AM - 7:00 PM</li>
-                                <li className="py-1 flex gap-x-2 items-center"><Circle color='#616847' size={20}/>Fri - Sun : 9:00 AM - 6:00 PM</li>
+                                <li className="py-1 flex gap-x-2 items-center"><Circle color='#616847' size={20}/>Fri – Sun : 9:00 AM - 6:00 PM</li>
                             </ul>
                             <p className="my-3 flex gap-x-2 items-center"><PhoneCall color='#616847' size={20}/>+91 88888 88888</p>
                             <button className="btn btn-primary mt-6 bg-[#616847] hover:bg-[#616847]/70 px-8 py-2">Book Now</button>
