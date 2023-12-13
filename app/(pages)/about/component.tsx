@@ -12,8 +12,8 @@ const AboutParaCompo = () => {
     return ( 
         <div className="h-[110vh] bg-blue-300">
             <div className="h-[350px] w-[350px] grid grid-cols-2 bg-red-600 m-auto mt-[45%]">
-                {data.map((item)=>(
-                    <div ref={parallax.ref} className="bg-white col-span-1">{item}</div>
+                {data.map((item, id)=>(
+                    <div key={id} ref={parallax.ref} className="bg-white col-span-1">{item}</div>
                 ))}
             </div>
         </div>
