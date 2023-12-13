@@ -2,6 +2,7 @@
 
 import React from 'react';
 import {motion} from "framer-motion";
+import { Parallax } from 'react-parallax';
 
 const ServicesSection = () => {
   return (
@@ -45,8 +46,8 @@ const ServicesSection = () => {
     </div>
                         
     <div className="grid grid-cols-3 grid-rows-3 gap-2 md:gap-4 lg:px-12 h-[80vh]">
-      <div className="col-span-2 row-span-2 rounded-lg flex items-center bg-cover bg-center bg-no-repeat overflow-hidden"
-        style={{backgroundImage:'url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701776181/itspa/imbmzhwlikyat0q9joo7.jpg)'}}> 
+      <Parallax className='col-span-2 row-span-2 rounded-lg flex items-center bg-cover bg-center bg-no-repeat overflow-hidden' bgImage="https://res.cloudinary.com/dmquwnaeb/image/upload/v1701776181/itspa/imbmzhwlikyat0q9joo7.jpg" strength={500}>
+     
         <motion.p
           initial={{
             y:150,
@@ -62,15 +63,14 @@ const ServicesSection = () => {
           }}
         className='rotate-180 text-[10vh] font-bold text-white [text-shadow:2px_2px_3px_var(--tw-shadow-color)] shadow-black' 
         style={{writingMode:"vertical-lr",}}>LUXURY</motion.p> 
-      </div>
+      </Parallax>
       
       <div className="col-span-1 rounded-lg flex items-center justify-center px-2">
         <p className='text-[4vw] font-extrabold bg-clip-text text-transparent bg-cover bg-center bg-no-repeat'
         style={{backgroundImage:'url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701698957/itspa/nrmkrt7mtkcbsr9fydgg.jpg)'}}>EXCLUSIVITY</p> 
       </div>
 
-      <div className="col-span-1 rounded-lg flex items-end justify-start px-2 bg-cover bg-center bg-no-repeat overflow-hidden"
-      style={{backgroundImage:'url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701776181/itspa/rqutbafkfpfxxamxq4d2.jpg)'}}>
+      <Parallax bgImage='https://res.cloudinary.com/dmquwnaeb/image/upload/v1701776181/itspa/rqutbafkfpfxxamxq4d2.jpg' strength={400} className="col-span-1 row-span-1 rounded-lg flex items-center justify-center px-2 ">
       <motion.p 
         initial={{
           y:-100,
@@ -83,10 +83,10 @@ const ServicesSection = () => {
           duration:1.5
         }}
       className='text-[3vw] font-bold text-white [text-shadow:2px_2px_3px_var(--tw-shadow-color)] shadow-black'>PEACE</motion.p> 
-      </div>
+      </Parallax>
 
-      <div className="col-span-1 row-span-1 rounded-lg flex items-end justify-start px-2 bg-cover bg-center bg-no-repeat overflow-hidden"
-      style={{backgroundImage:'url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701776180/itspa/gdewg8ee3ohy72qpnhhq.jpg)'}}>
+      <Parallax className="col-span-1 row-span-1 rounded-lg flex items-center justify-start px-2 bg-cover bg-center bg-no-repeat overflow-hidden"
+      bgImage='https://res.cloudinary.com/dmquwnaeb/image/upload/v1701776180/itspa/gdewg8ee3ohy72qpnhhq.jpg'>
       <motion.p 
         initial={{
           y:-100,
@@ -99,10 +99,10 @@ const ServicesSection = () => {
           duration:1.5
         }}
       className='text-[3vw] font-bold text-white [text-shadow:2px_2px_3px_var(--tw-shadow-color)] shadow-black'>ELEGANCE</motion.p> 
-      </div>
+      </Parallax>
 
-      <div className="col-span-1 row-span-1 rounded-lg flex items-end justify-start px-2 bg-cover bg-center bg-no-repeat overflow-hidden"
-      style={{backgroundImage:'url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701776180/itspa/tohekhlczgz4zi31mr5c.jpg)'}}>
+      <Parallax className="col-span-1 row-span-1 rounded-lg flex items-center justify-start px-2 bg-cover bg-center bg-no-repeat overflow-hidden" strength={100}
+      bgImage='https://res.cloudinary.com/dmquwnaeb/image/upload/v1701776180/itspa/tohekhlczgz4zi31mr5c.jpg'>
       <motion.p 
         initial={{
           y:-100,
@@ -115,7 +115,7 @@ const ServicesSection = () => {
           duration:1.5
         }}
       className='text-[3vw] font-bold text-white [text-shadow:2px_2px_3px_var(--tw-shadow-color)] shadow-black'>WELLNESS</motion.p> 
-      </div>
+      </Parallax>
 
       <div className="col-span-1 row-span-1 rounded-lg flex items-center justify-center px-2 ">
         <p className='text-[5vw] font-extrabold bg-clip-text text-transparent bg-cover bg-center bg-no-repeat'

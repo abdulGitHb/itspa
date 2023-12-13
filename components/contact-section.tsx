@@ -1,6 +1,11 @@
+"use client"
+
+import { Parallax } from "react-parallax";
+
 const ContactSection = () => {
     return (
-      <section className="min-h-screen bg-cover bg-center" style={{backgroundImage: 'url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701698957/itspa/nrmkrt7mtkcbsr9fydgg.jpg)'}}>
+        <Parallax bgImage="https://res.cloudinary.com/dmquwnaeb/image/upload/v1701698957/itspa/nrmkrt7mtkcbsr9fydgg.jpg" strength={500}>
+      {/* <section className="min-h-screen bg-cover bg-center" style={{backgroundImage: 'url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701698957/itspa/nrmkrt7mtkcbsr9fydgg.jpg)'}}> */}
     <div className="flex flex-col min-h-screen bg-black/60">
         <div className="container flex flex-col flex-1 px-6 py-12 mx-auto">
             <div className="flex-1 lg:flex lg:items-center lg:-mx-6">
@@ -86,7 +91,8 @@ const ContactSection = () => {
             </div>
         </div>
     </div>
-</section>
+{/* </section> */}
+</Parallax>
     );
 };
 

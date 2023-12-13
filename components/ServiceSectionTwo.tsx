@@ -4,6 +4,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Link from 'next/link';
+import { ParallaxBanner } from 'react-scroll-parallax';
+import { Parallax } from 'react-parallax';
 
 const ServiceItem = ({ title, description, image }:{title:string, description:string, image: string}) => {
     return (
@@ -95,10 +97,9 @@ const ServiceSection = () => {
                 
             </Slider>
 
-      <div className="flex justify-center bg-appointment bg-cover bg-center bg-gray-300/30 bg-blend-lighten"
-            style={{backgroundImage: `url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1701759086/itspa/zrnzhenzuze7wqmxhj47.jpg)`,}}>
-        <div className="lg:w-1/2 py-5">
-          <div className="p-5 my-5" style={{ background: 'rgba(33, 30, 28, 0.7)' }}>
+<Parallax bgImage='https://res.cloudinary.com/dmquwnaeb/image/upload/v1701759086/itspa/zrnzhenzuze7wqmxhj47.jpg'  strength={500}>
+        <div className="lg:w-1/2 py-5 mx-auto">
+          <div className="p-5 my-8" style={{ background: 'rgba(33, 30, 28, 0.7)' }}>
             <h1 className="text-white text-center mb-4">Make Appointment</h1>
             <form>
               <div className="flex flex-wrap -mx-2 mb-4">
@@ -159,7 +160,7 @@ const ServiceSection = () => {
             </form>
           </div>
         </div>
-      </div>
+      </Parallax>
     </div>
     </>
     );

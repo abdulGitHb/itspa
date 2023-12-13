@@ -8,9 +8,10 @@ import ContactSection from '@/components/contact-section'
 import OpenHoursSection from '@/components/open-hour-section'
 import OurCenters from '@/components/our-centers'
 import OurTeam from '@/components/our-team'
+import OurCenterScroll from '@/components/our-center-scroll'
 import TestimonialsSection from '@/components/testimonials-section'
-import Head from 'next/head'
-import Image from 'next/image'
+import ServicesSectionScroll from '@/components/services-section-scroll'
+
 
 // Hex Codes: #E9E1CC, #C2C0A2, #9A9F78, #616847
 
@@ -25,8 +26,10 @@ export default function Home() {
       <HeroSection/>
       {/* <AboutSection/> */}
       <ServicesSection/>
+      {/* <ServicesSectionScroll/> */}
       <ServiceSection/>
-      <OurCenters/>
+      <OurCenterScroll/>
+      {/* <OurCenters/> */}
       <OpenHoursSection/>
       <OurTeam/>
       <TestimonialsSection/>
